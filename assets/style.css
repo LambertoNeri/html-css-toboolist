@@ -26,6 +26,7 @@ main{
     background-color: rgba(31, 29, 29, 0.13);
     padding-top: 40px;
     margin: 0;
+    height: 760px;
 }
 .contenitore{
     background-color: white;
@@ -33,7 +34,8 @@ main{
     margin-left: auto;
     margin-right:auto;
     margin-top: 20px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     height: 60px;
 }
 
@@ -87,6 +89,9 @@ main{
     margin-right: auto;
     margin-top: 1px;
     box-sizing: border-box;
+    height: 650px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 ul{
@@ -150,9 +155,36 @@ ul{
 }
 
 .markss{
-    padding-top: 30px;
+    padding-top: 17px;
     font-size: 1.3rem;
     font-weight: 600;
     display: inline-block;
 }
 
+.rosa{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(218, 14, 126);
+    border-radius: 13px;
+    border-color: rgb(218, 14, 126);
+    color: white;
+    font-size: 0.8rem;
+    width: 80px;
+    height: 30px;
+    border-style: solid;
+    display: inline-block;
+}
+
+.giallo{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(204, 218, 14);
+    border-radius: 13px;
+    border-color: rgb(204, 218, 14);
+    color: white;
+    font-size: 0.8rem;
+    width: 80px;
+    height: 30px;
+    border-style: solid;
+    display: inline-block;
+}
